@@ -52,6 +52,7 @@ const loop = setInterval(()=> {
    }
 }, 10);
 
-document.addEventListener("keydown", jump);
+document.addEventListener("click", jump);
+// poderia ser "keydown" na linha acima
 
 
