@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color:lightskyblue;
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightslategray;
+}
+
+p, h2, a, h4{
+    font-family: 'Crete Round', serif;
+    font-family: 'Itim', cursive;
+    font-family: 'Kurale', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Public Sans', sans-serif;
+    text-align: justify;
+}
+
+p{
+  font-size: larger;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    cursor:pointer;
+    color: black;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
+
+img:hover{
+    cursor: pointer;   
+}
+
+@media (max-width:850px){
+    img{
+        width:100%;
+    }
+
+    body{
+        width:100%;
+    }
+
+    section{
+        padding: 25px;
+    }
+    
+}
